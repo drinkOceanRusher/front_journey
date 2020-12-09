@@ -6,5 +6,7 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: cd react-code && npm install
+  - init: cd react-code
+  - init: pwd
+  - init: npm intall 
     command: npm start
